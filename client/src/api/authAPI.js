@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const AUTH_API_URL = 'http://localhost:8000/api/v1/auth';
+// const AUTH_API_URL = 'http://localhost:8000/api/v1/auth';
+const AUTH_API_URL = 'https://taskmanagerapp-x3wm.onrender.com/api/v1/auth';
 
 export const register = async ({ name, email, password }) => {
     const response = await axios.post(`${AUTH_API_URL}/register`, { name, email, password });

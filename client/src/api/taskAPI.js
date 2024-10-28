@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/v1/tasks';
+// const API_URL = 'http://localhost:8000/api/v1/tasks';
+const API_URL = 'https://taskmanagerapp-x3wm.onrender.com/api/v1/tasks';
 
 // Create an Axios instance
 const apiClient = axios.create({
