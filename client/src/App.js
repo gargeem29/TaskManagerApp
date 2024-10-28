@@ -83,7 +83,7 @@ const App = () => {
                 ) : (
                   <>
                     <TaskForm taskToEdit={taskToEdit} onSave={handleSave} fetchTasks={fetchTasks} />
-                    <TaskList onEdit={handleEdit} tasks={tasks} />
+                    <TaskList onEdit={handleEdit} tasks={tasks} fetchTasks={fetchTasks} />
                   </>
                 )
               }
